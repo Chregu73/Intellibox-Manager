@@ -1,0 +1,80 @@
+@DATABASE Intellibox-Manager V0.01
+@$VER: Version
+@(c) Copyright by Chregu
+@AUTHOR "Chregu"
+
+@NODE MAIN Intellibox-Manager
+----------------------------------------------------------------------
+  @{fg shine}Intellibox-Manager V0.01@{fg text}
+----------------------------------------------------------------------
+
+DIE Software zur Intellibox
+
+   @{" Was ist Intellibox-Manager " LINK WAS} Wo wird Intellibox-Manager eingesetzt?
+
+   @{" Installation " LINK INSTALLATION} von Intellibox-Manager
+
+   @{" Bedienung " LINK BEDIENUNG} von Intellibox-Manager
+
+@ENDNODE
+
+@NODE WAS Intellibox-Manager
+
+Was ist Intellibox-Manager und wo wird Intellibox-Manager eingesetzt?
+
+Intellibox-Manager ist DIE Software zur Intellibox von Uhlenbrock.
+Mit Intellibox-Manager wird die Bedienung der Intellibox über die
+RS232 Schnittstelle extrem vereinfacht. Unterstützt werden die wichtigsten
+Bedienelemente. Als Besonderheit ist ein einfacher aber leistungsfähiger
+Dekoderprogrammier-Manager integriert.
+
+      @{" Zurück " LINK MAIN} zum Hauptmenü.
+
+@ENDNODE
+
+@NODE INSTALLATION Intellibox-Manager
+
+Installation von Intellibox-Manager
+
+Die ZIP Datei ins gewünschte Verzeichnis entpacken.
+Sonst muss nichts installiert werden.
+
+      @{" Zurück " LINK MAIN} zum Hauptmenü.
+
+@ENDNODE
+
+@NODE BEDIENUNG Intellibox-Manager
+
+Bedienung
+
+Doppelklicken Sie die Datei Intellibox-Manager.exe oder geben Sie den
+entsprechenden Namen in der DOS-Shell ein. Eventuelle
+Parameter werden ignoriert.
+
+Wählen Sie als erstes im Menu "datei" den Punkt "Einstellungen"
+an und stellen Sie die Parameter der seriellen Schnittstelle wie
+gewünscht ein. Die Einstellungen für "Datenbits", "Parität" und
+"Stoppbits" haben keinen Effekt und sind schon voreingestellt
+(8N2).
+
+Nach dem drücken von "OK" wird die Schnittstelle entsprechend
+eingestellt.
+
+Das Programm kommuniziert mit der Intellibox P50Xa-Kommandos.
+Achten Sie darauf, dass die Intellibox auf das entsprechende
+Format eingestellt ist (IB-Syn.). Bitte konsultieren Sie dafür das Handbuch
+der Intellibox.
+
+Die Tabelle auf der rechten Fensterhälfte ist für die Dekoderverwaltung
+zuständig. Zu beachten ist, dass "Markiert" soviel wie ein blau hinterlegte
+Zeile bedeutet, sowie "Selektiert" dass in der ersten Spalte das Häkchen
+gesetzt ist.
+
+Der aktuell geladene Dekoder, die Selektion und die Fensterposition
+wird beim nächsten Programmstart automatisch geladen. Bitte speichern
+Sie Änderungen immer rechtzeitig, beim Laden eines anderen Dekoders oder
+bei Programmende wird nicht gewarnt!
+
+      @{" Zurück " LINK MAIN} zum Hauptmenü.
+
+@ENDNODE
