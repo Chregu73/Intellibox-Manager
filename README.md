@@ -42,6 +42,8 @@ Achten Sie darauf, dass die Intellibox auf das entsprechende
 Format eingestellt ist (IB-Syn.). Bitte konsultieren Sie dafür das Handbuch
 der Intellibox.
 
+![V110](https://github.com/Chregu73/Intellibox-Manager/assets/17860028/4bd51386-1f09-448b-995a-d0f96abc2674)
+
 Die Tabelle im Tab "CV-Programmierung" ist für die Dekoderverwaltung
 zuständig. Zu beachten ist, dass "Markiert" soviel wie ein blau hinterlegte
 Zeile bedeutet, sowie "Selektiert" dass in der ersten Spalte das Häkchen
