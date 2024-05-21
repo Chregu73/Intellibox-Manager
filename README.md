@@ -9,6 +9,8 @@ Dekoderprogrammier-Manager integriert.
 
 ## Was ist neu in der Version 1.11?
 
+![V111](https://github.com/Chregu73/Intellibox-Manager/assets/17860028/0a2dd61b-4cba-4251-813e-f70536b45942)
+
 - Neue einfachere Bedienung des CV-Editors
 - Problem mit Fahrstufe 1 behoben (Fahrstufe 1 ist Nothalt)
 - Neue Routine für die serielle Schnittstelle: Transparentere Meldungen
