@@ -7,7 +7,13 @@ RS232 Schnittstelle extrem vereinfacht. Unterstützt werden die wichtigsten
 Bedienelemente. Als Besonderheit ist ein einfacher aber leistungsfähiger
 Dekoderprogrammier-Manager integriert.
 
-## Was ist neu in der Version 1.xx?
+## Was ist neu in der Version 1.11?
+
+- Neue einfachere Bedienung des CV-Editors
+- Problem mit Fahrstufe 1 behoben (Fahrstufe 1 ist Nothalt)
+- Neue Routine für die serielle Schnittstelle: Transparentere Meldungen
+
+## Was ist neu in der Version 1.10?
 
 - Die einzelnen Funktionen sind in separaten, übersichtlichen Tabs untergebracht.
 - Ein UDP-Server empfängt Befehle von einem beliebigen Device und schickt sie
@@ -53,3 +59,7 @@ Der aktuell geladene Dekoder, die Selektion und die Fensterposition
 wird beim nächsten Programmstart automatisch geladen. Bitte speichern
 Sie Änderungen immer rechtzeitig, beim Laden eines anderen Dekoders oder
 bei Programmende wird nicht gewarnt!
+
+Ein Doppelklick mit der linken Maustaste editiert das entsprechende Feld.
+Ein Rechtsklick öffnet einen Dialog zum einfachen editieren der einzelnen
+Bits.

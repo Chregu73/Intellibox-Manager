@@ -1,20 +1,51 @@
-@DATABASE Intellibox-Manager V0.01
+@DATABASE Intellibox-Manager V1.11
 @$VER: Version
 @(c) Copyright by Chregu
 @AUTHOR "Chregu"
 
 @NODE MAIN Intellibox-Manager
 ----------------------------------------------------------------------
-  @{fg shine}Intellibox-Manager V0.01@{fg text}
+  @{fg shine}Intellibox-Manager V1.11@{fg text}
 ----------------------------------------------------------------------
 
 DIE Software zur Intellibox
+
+   @{" Neu in der Version 1.11 " LINK NEU} Was ist neu in der Version 1.11?
 
    @{" Was ist Intellibox-Manager " LINK WAS} Wo wird Intellibox-Manager eingesetzt?
 
    @{" Installation " LINK INSTALLATION} von Intellibox-Manager
 
    @{" Bedienung " LINK BEDIENUNG} von Intellibox-Manager
+
+@ENDNODE
+
+@NODE NEU Intellibox-Manager
+
+Was ist neu in der Version 1.11?
+
+- Neue einfachere Bedienung des CV-Editors
+
+- Problem mit Fahrstufe 1 behoben (Fahrstufe 1 ist Nothalt)
+
+- Neue Routine für die serielle Schnittstelle: Transparentere Meldungen
+
+Was ist neu in der Version 1.10?
+
+- Die einzelnen Funktionen sind in separaten, übersichtlichen Tabs untergebracht.
+
+- Ein UDP-Server empfängt Befehle von einem beliebigen Device und schickt sie
+an die Intellibox. Sogar übers Internet.
+
+- Im Tab "Fahren" kann intuitiv über einen Schiebesteller gefahren werden
+
+- Beliebige (auch über COM4) serielle Schnittstelle wird unterstützt
+
+- Beim Batch-Programmieren von Dekodern gibt es bis 3 Retries
+
+- Erweiterte Funktionen (F9 ... F12 (von IB nicht unterstützt))
+
+      @{" Zurück " LINK MAIN} zum Hauptmenü.
 
 @ENDNODE
 
@@ -51,7 +82,7 @@ Doppelklicken Sie die Datei Intellibox-Manager.exe oder geben Sie den
 entsprechenden Namen in der DOS-Shell ein. Eventuelle
 Parameter werden ignoriert.
 
-Wählen Sie als erstes im Menu "datei" den Punkt "Einstellungen"
+Wählen Sie als erstes im Menu "Datei" den Punkt "Einstellungen"
 an und stellen Sie die Parameter der seriellen Schnittstelle wie
 gewünscht ein. Die Einstellungen für "Datenbits", "Parität" und
 "Stoppbits" haben keinen Effekt und sind schon voreingestellt
@@ -65,7 +96,7 @@ Achten Sie darauf, dass die Intellibox auf das entsprechende
 Format eingestellt ist (IB-Syn.). Bitte konsultieren Sie dafür das Handbuch
 der Intellibox.
 
-Die Tabelle auf der rechten Fensterhälfte ist für die Dekoderverwaltung
+Die Tabelle im Tab "CV-Programmierung" ist für die Dekoderverwaltung
 zuständig. Zu beachten ist, dass "Markiert" soviel wie ein blau hinterlegte
 Zeile bedeutet, sowie "Selektiert" dass in der ersten Spalte das Häkchen
 gesetzt ist.
@@ -74,6 +105,10 @@ Der aktuell geladene Dekoder, die Selektion und die Fensterposition
 wird beim nächsten Programmstart automatisch geladen. Bitte speichern
 Sie Änderungen immer rechtzeitig, beim Laden eines anderen Dekoders oder
 bei Programmende wird nicht gewarnt!
+
+Ein Doppelklick mit der linken Maustaste editiert das entsprechende Feld.
+Ein Rechtsklick öffnet einen Dialog zum einfachen editieren der einzelnen
+Bits.
 
       @{" Zurück " LINK MAIN} zum Hauptmenü.
 
